@@ -15,3 +15,24 @@ if the user could not guess the correct answer within max_tries, we print
 
 """
 
+"""
+main
+    question= "what is the capital of California"
+    answer= " Sacramento"
+    ask(question, answer)
+
+
+ask
+    tries=0
+    loop three times
+        increment tries
+        ask user input()
+        check to see user of user input is equal to answer
+            if so, print correct then exit loop
+        if not correct
+            print to the user, you have used your allotment of guesses,
+            print the correct answer "the correct answer is sacramento"
+
+    main
+
+"""
